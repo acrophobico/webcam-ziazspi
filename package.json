@@ -1,0 +1,12 @@
+{
+  "name": "webcam-spiazzi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Archivio automatico webcam Spiazzi di Gromo",
+  "scripts": {
+    "download": "node scripts/download.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0"
+  }
+}
